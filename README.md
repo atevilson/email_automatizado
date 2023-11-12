@@ -1,4 +1,4 @@
-# Projeto de Agendamento de Pedidos
+# Projeto email automatizado
 
 Criei esse script em Python visando automatizar o processo de envio de e-mails para fornecedores que possuem pedidos sem agendamento, de acordo com as regras estabelecidas. O projeto utiliza as bibliotecas `win32com.client` para interação com o Outlook, `pandas` para manipulação de dados em formato tabular e `datetime` para lidar com informações de data e hora.
 
@@ -22,7 +22,7 @@ base_dashboard = base[base['DT_ENTREGA'] >= data_atual]
 # Leitura das bases de e-mails dos fornecedores
 emails_forn = pd.read_excel("planilhas/emails_forn.xlsx")
 emails_amigao = pd.read_excel("planilhas/emails_amigao.xlsx")
-
+```
 
 ## Demais destaques do Código
 
