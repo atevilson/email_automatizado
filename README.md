@@ -57,7 +57,7 @@ Para executar o script, certifique-se de ter as bibliotecas necessárias instala
 ```bash
 pip install pandas pywin32
 pip install openpyxl
-
+```
 ---
 
 [Base de dados disponibilizadas no Kaggle](https://github.com/atevilson/email_automatizado/blob/main/email_forn_sem_agenda.ipynb)
