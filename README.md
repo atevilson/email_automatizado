@@ -23,6 +23,28 @@ base_dashboard = base[base['DT_ENTREGA'] >= data_atual]
 emails_forn = pd.read_excel("planilhas/emails_forn.xlsx")
 emails_amigao = pd.read_excel("planilhas/emails_amigao.xlsx")
 ```
+---
+
+## Estrutura para base de contatos de fornecedores e dos departamentos da empresa em questão
+
+### Tabela: Usuários
+
+| nome_usuario | email-usuario                                     | depto          |
+|--------------|---------------------------------------------------|----------------|
+| usuario1     | exampler@email.com; exampler@email.com; exampler@email.com | depto_example  |
+| usuario2     | exampler@email.com; exampler@email.com; exampler@email.com | depto_example  |
+
+
+### Tabela: Fornecedores
+
+| cod_fornecedor | nome_fornecedor  | email                 | email_forn_cc                                    |
+|----------------|------------------|-----------------------|--------------------------------------------------|
+| 1010101        | nome_fornecedor1 | email_forn@example.com | example1@email.com; example2@email.com           |
+| 1010101        | nome_fornecedor2 | email_forn@example.com | example1@email.com; example2@email.com           |
+| 1010101        | nome_fornecedor3 | email_forn@example.com | example1@email.com; example2@email.com           |
+
+
+
 
 ## Demais destaques do Código
 
