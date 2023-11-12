@@ -60,7 +60,7 @@ pip install openpyxl
 ```
 ---
 
-[Base de dados disponibilizadas no Kaggle](https://github.com/atevilson/email_automatizado/blob/main/email_forn_sem_agenda.ipynb)
+[Confira o código no notebook do Jupyter](https://github.com/atevilson/email_automatizado/blob/main/email_forn_sem_agenda.ipynb)
 
 
 ### Autor
